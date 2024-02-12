@@ -1,0 +1,13 @@
+from random import randint
+
+questions = [ 
+    "what is the purpose of convolution in image processing",
+    "what is meant by full convolution",
+    "what is meant by linear spatial filtering",
+]
+
+exam = [] 
+
+for i in range(0, 50):
+    exam.append(questions[randint(0,2)])
+    print(exam[i])
